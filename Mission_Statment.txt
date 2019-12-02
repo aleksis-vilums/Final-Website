@@ -1,0 +1,6 @@
+Mission Statment
+Target audience       -> Customers in the market for a new phone
+Problems I will solve -> Analyze input from the user to suggest a recommended phone
+Why it will be useful -> With so many option it hard to pick the right phone so I will do it for you.
+
+Have a line up of phones and as the user fills out the boxes then the some phones go away.
