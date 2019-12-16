@@ -1,9 +1,24 @@
 document.body.style.background = "mistyrose";
 
 function ready() {
-    let price = document.getElementByName("budget")[0].value;
-    if (price.value == "1000"){
-        console.log("Clicked")
+    let budget = document.getElementById('budget');
+
+    function getSelectedOption(budget) {
+        let opt;
+        for ( let i = 0, len = budget.options.length; i < len; i++ ) {
+            opt = budget.options[i];
+            if ( opt.selected == true ) {
+                break;
+            }
+        }
+        return opt;
+    }
+
+    document.getElementById("budget").onchange = function () {
+        if (budget.value == 500){
+            let element = document.getElementById('thousand');
+            element.parentNode.removeChild(element);
+        }
     }
 }
 
