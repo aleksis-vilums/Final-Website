@@ -23,7 +23,7 @@ function ready() {
         }
     }
 
-    budget.onclick = function () {
+    budget.onchange = function () {
         if (budget.value == 1000){
             let thousand = [document.getElementById("cell2"), document.getElementById("cell10"), document.getElementById("cell18"), document.getElementById("cell26"), document.getElementById("cell34"), document.getElementById("cell42"), document.getElementById("cell3"), document.getElementById("cell4"), document.getElementById("cell5"), document.getElementById("cell6"), document.getElementById("cell7"), document.getElementById("cell8"), document.getElementById("cell11"), document.getElementById("cell12"), document.getElementById("cell13"), document.getElementById("cell14"), document.getElementById("cell15"), document.getElementById("cell16"), document.getElementById("cell19"), document.getElementById("cell20"), document.getElementById("cell21"), document.getElementById("cell22"), document.getElementById("cell23"), document.getElementById("cell24"), document.getElementById("cell27"), document.getElementById("cell28"), document.getElementById("cell29"), document.getElementById("cell30"), document.getElementById("cell31"), document.getElementById("cell32"), document.getElementById("cell35"), document.getElementById("cell36"), document.getElementById("cell37"), document.getElementById("cell38"), document.getElementById("cell39"), document.getElementById("cell40"), document.getElementById("cell43"), document.getElementById("cell44"), document.getElementById("cell45"), document.getElementById("cell46"), document.getElementById("cell47"), document.getElementById("cell48")];
             for (let i = 0; i < thousand.length; i++)  {
